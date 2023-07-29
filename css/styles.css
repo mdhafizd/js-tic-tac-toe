@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    margin: 20px auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+#message {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#restart {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #45a049;
+}
